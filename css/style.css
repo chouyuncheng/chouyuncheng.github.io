@@ -1,0 +1,509 @@
+@import url('reset.css');
+
+body{
+    background-color: #7b2119;
+}
+
+.top img{
+    width: 100%;
+    display: block;
+}
+
+/* .top{
+    background-image: url(../img/top.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    height: 150px;
+    border-image-width: auto;
+} */
+
+/* ---------- 第一區 主圖 ---------- */
+.kv{
+    background-image: url(../img/kv-bg.png);
+    display: block;
+    height: 360px;
+    padding: 90px;
+    padding-left: 150px;
+    background-position: right;
+    color: white;
+}
+
+.kv h1{
+    
+    font-size: 4rem;
+    padding-bottom: 30px; 
+    letter-spacing: .3em;
+}
+
+.kv p{
+    padding-bottom: 50px;
+    width: 330px;
+    line-height: 2;
+}
+
+.kv a{
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: #b10102;
+    background-color: #fff;;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+}
+
+.kv a:hover{
+    background-color: #65110a;
+    color: white;
+
+}
+
+/* ---------- 第一區 選單---------- */
+
+.tag ul{
+    background-color: #b10102;
+    height: 60px;
+    display: flex;
+    padding: 0 0 0 150px;
+}
+
+.tag li{
+    /* border: 2px solid blue; */
+    font-size: 1.5rem;
+    flex-grow: 1;
+}
+
+.tag a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    /* margin: 0 50px; */
+}
+
+.tag a:hover{
+    /* border-bottom: 2px solid white; */
+    color: #f6deba;
+}
+
+
+.tag i{
+    margin-right: 5px;
+}
+
+/* ---------- 第二區 企業採購 ---------- */
+.company{
+    height: 960px;
+    background-color: #faf1e8;
+}
+
+.company img{
+    display: block;
+    width: 530px;
+    height: 729px;
+    margin: 110px;
+    margin-left: 150px;
+    float: left;
+}
+
+.company h1{
+    font-size: 4rem;
+    color: #b10102;
+    padding: 250px 0 80px 0;
+    letter-spacing: .3em;   
+}
+
+.company p{
+    font-size: 1rem;
+    line-height: 3;
+    color: #b10102;
+    margin-right: 150px;
+}
+
+/* ---------- 第三區 商務禮贈 ---------- */
+.gift{
+    background-image: url(../img/2-1_gift\ group.png);
+    height: 960px;
+    background-position: bottom right;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-color: #7b2119;
+    
+}
+
+.gift h1{
+    font-size: 4rem;
+    color: white;
+    padding-top: 200px;
+    padding-left: 150px;
+    letter-spacing: .4em; 
+}
+
+.gift p {
+    width: 350px;
+    font-size: 1rem;
+    margin-top: 80px;
+    padding-left: 150px;
+    line-height: 3;
+    color: white;
+    
+}
+
+/* ---------- 第三區 商務禮贈 動態 ---------- */
+/* .giftsel{
+    height: 300px;
+    background-color: #65110a;
+}
+
+
+
+.giftsel ul{
+    display: flex;
+    padding: 50px;
+    border: 5px solid green;
+    overflow: hidden;    
+}
+
+.giftsel li{
+    flex-grow: 1;
+    width: 100px;
+    border: 5px solid blue;
+}
+
+.gift1{
+    width: 100px;
+} */
+
+/* ---------- 第四區 特約企業專案 ---------- */
+.spcompany-bg{
+    background-color: #faf1e8;
+    height: 729px;   
+    padding-top: 80px;
+}
+
+.spcompany-bg h2{
+    font-size: 1rem;
+    line-height: 3;
+    color: #b10102;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.spcompany{
+    background-image: url(../img/3_shopping.jpg);
+    width: 1100px;
+    height: 230px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+    /* border: 2px solid blue; */
+    /* background-size: 80%; */
+}
+
+.spcompany h1{
+    font-size: 4rem;
+    color: white;
+    padding-top: 65px;
+    padding-left: 100px;
+    letter-spacing: .4em;
+}
+
+
+.spcompany-bg p{
+    font-size: 1rem;
+    /* line-height: 3; */
+    color: gray;
+    width: 900px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* ---------- 第五區 建案合作優惠 ---------- */
+.home{
+    height: 960px;
+    background-color: #e3c394;
+}
+
+.home ul{
+    display: flex;
+    /* border: 5px solid blue; */
+    width: 1000px;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+
+.home li{
+    /* border: 5px solid red; */
+    padding-top: 200px;
+}
+
+.home h1{
+    color: #65110a;
+    font-size: 6rem;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%,-50%);
+    letter-spacing: .3em;
+    display: block;
+}
+
+.home img{
+    display: block;
+    /* border: 3px solid white; */
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    filter: opacity(.3);
+    box-sizing: border-box;
+    
+}
+
+.home a{
+    /* border: 5px solid green; */
+    /* text-decoration: none; */
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: #f6deba;
+}
+
+.home a:before{
+    content: "";
+    width: 90%;
+    height: 90%;
+    border: 5px solid #65110a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.home a:hover::before{
+    border: 5px solid white;
+}
+
+.home a:hover h1{
+    color: #fff;
+}
+
+/* ---------- 第六區 表單 ---------- */
+.form{
+    /* border: 2px solid blue; */
+    background-color: #7b2119;
+    height: 729px;
+}
+
+.main{
+    color: white;
+    /* border: 2px solid green; */
+    padding: 0 auto;
+}
+
+.main h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.main ul{
+    /* border: 2px solid blue; */
+	width: 45%;
+	margin: 0 auto;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.main li{
+    /* border: 2px solid green; */
+	margin-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main p{
+    font-size: 1rem;
+    padding-right: 20px;
+}
+
+/* ---------------- input form --------------- */
+
+.main .companyname{
+	width: 300px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .number{
+	width: 300px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .name{
+	width: 300px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .phone{
+	width: 500px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .email{
+	width: 500px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main textarea{
+	width: 500px;
+	height: 200px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	outline: 0;
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.main .send{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	background-color: #e3c394;
+	color: #7b2119;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+    border-radius: 4px;
+    
+}
+
+.main .send a{
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/* ---------------- input form end --------------- */
+
+/* .footer{
+    background-image: url(../img/under.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    height: 660px;
+} */
+
+.footer img{
+    width: 100%;
+    display: block;
+}
+
+.toTop{
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #65110a;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 50px;
+	bottom: 60px;
+	text-decoration: none;
+	border-radius: 50%;
+	font-size: 2em;
+	transition: .3s;
+}
+
+.toTop .fa{
+	transition: .3s;
+}
+
+.toTop:hover{
+	background-color: #e3c394;
+}
+
+.toTop:hover .fa{
+	transform: translateY(-5px);
+}
+
+
+/* ---------- 第三區 商務禮贈 動態 ---------- */
+/* .giftsel{
+    height: 300px;
+    background-color: #65110a;
+}
+
+
+
+.giftsel ul{
+    display: flex;
+    padding: 50px;
+    border: 5px solid green;
+    overflow: hidden;    
+}
+
+.giftsel li{
+    flex-grow: 1;
+    width: 100px;
+    border: 5px solid blue;
+}
+
+.gift1{
+    width: 100px;
+} */
+
+.giftsel{
+    height: 250px;
+    background-color: #65110a;
+}
+
+.swiper {
+    width: 90%;
+    height: 226px;
+  }
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.giftsel img{
+    width: 100%;
+    padding-top: 25px;
+    
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    text-shadow: 0 0 3px rgba(0,0,0,.5);
+}

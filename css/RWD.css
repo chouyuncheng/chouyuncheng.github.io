@@ -1,0 +1,412 @@
+@import url('reset.css');
+
+/* ----- 斷點 430 ----- */
+@media screen and (max-width: 431px){
+
+    /* .top {
+        background-image: url(../img/top_ph.jpg);
+        background-repeat: no-repeat;
+        height: 105px;
+    } */
+
+    /* ---------- 第一區 主圖 ---------- */
+    .kv{
+        background-image: url(../img/kv-bg.png);
+        width: auto;
+        height: 50vw;
+        background-size: cover;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .kv h1{
+        display: block; 
+        /* background-color: #7b2119;    */
+        font-size: 6vw;
+        /* padding-top: 20px;  */
+        padding-left: 20px;
+        padding-bottom: 10px;
+        letter-spacing: .3em;
+    }
+
+    .kv p{
+        font-size: 2.5vw;
+        padding-left: 20px;
+        padding-bottom: 0;
+        width: 150px;
+        line-height: 1.5;
+    }
+
+    .kv a{
+        font-size: 2.5vw;
+        width: 80px;
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: block;
+        color: #b10102;
+        background-color: #fff;;
+        text-decoration: none;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 25px;
+    }
+
+    /* ---------- 第一區 選單---------- */
+    .tag ul{
+        background-color: #b10102;
+        height: 300px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .tag li{
+        font-size: 6vw;
+        flex-grow: 1;
+        margin: 0 auto;
+    }
+
+    /* ---------- 第二區 企業採購 ---------- */
+    .company{
+        height: 850px;
+    }
+
+    .company img{
+        display: block;
+        width: 300px;
+        height: auto;
+        padding: 60px;
+        margin: 0;
+        float: left;
+    }
+
+    .company h1{
+        font-size: 8vw;
+        color: #b10102;
+        text-align: center;
+        letter-spacing: .3em;
+        padding-bottom: 20px;   
+    }
+
+    .company p{
+        font-size: 1rem;
+        line-height: 2;
+        color: #b10102;
+        /* text-align: center; */
+        margin-right: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* ---------- 第三區 商務禮贈 ---------- */
+    .gift{
+        background-image: url(../img/2-1_gift\ group.png);
+        height: 600px;
+        background-position: bottom no-right;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-color: #7b2119;        
+    }
+
+    .gift h1{
+        font-size: 8vw;
+        color: white;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        text-align: center;
+        letter-spacing: .4em; 
+    }
+
+    .gift p {
+        width: 350px;
+        font-size: 1rem;
+        margin-top: 20px;
+        padding-left: 0px;
+        margin: 0 auto;
+        line-height: 2;
+        color: white;        
+    }
+
+    /* ---------- 第四區 特約企業專案 ---------- */
+.spcompany-bg{
+    background-color: #faf1e8;
+    height: 700px;   
+    padding-top: 60px;
+}
+
+.spcompany-bg h2{
+    font-size: 1rem;
+    line-height: 2;
+    color: #b10102;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.spcompany{
+    background-image: url(../img/3_shopping-ph.png);
+    width: 80%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: block;
+    /* border: 2px solid blue; */
+    /* background-size: 80%; */
+}
+
+.spcompany h1{
+    font-size: 8vw;
+    color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    letter-spacing: .1em;
+}
+
+
+.spcompany-bg p{
+    font-size: 1rem;
+    /* line-height: 3; */
+    color: gray;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* ---------- 第五區 建案合作優惠 ---------- */
+.home{
+    height: 700px;
+    background-color: #e3c394;
+}
+
+.home ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px solid blue; */
+    width: 300px;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    padding-top: 50px;
+}
+
+.home li{
+    /* border: 5px solid red; */
+    padding-top: 0;
+}
+
+.home h1{
+    color: #65110a;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-45%);
+    letter-spacing: .3em;
+    display: block;
+}
+
+.home img{
+    display: block;
+    /* border: 3px solid white; */
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    filter: opacity(.3);
+    box-sizing: border-box;    
+}
+
+.home a{
+    /* border: 5px solid green; */
+    /* text-decoration: none; */
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: #f6deba;
+}
+
+/* ---------- 第六區 表單 ---------- */
+.form{
+    /* border: 2px solid blue; */
+    background-color: #7b2119;
+    height: 700px;
+}
+
+.main{
+    color: white;
+    /* border: 2px solid green; */
+    padding: 0 auto;
+}
+
+.main h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main ul{
+    /* border: 2px solid blue; */
+	width: 75%;
+	margin: 0 auto;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.main li{
+    /* border: 2px solid green; */
+	margin-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main p{
+    font-size: 1rem;
+    padding-right: 20px;
+}
+
+/* ---------------- input form --------------- */
+
+.main .companyname{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .number{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .name{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .phone{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main .email{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: 0;
+    border-radius: 4px;
+}
+
+.main textarea{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	outline: 0;
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.main .send{
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	background-color: #e3c394;
+	color: #7b2119;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+    border-radius: 4px;
+    
+}
+
+.main .send a{
+    text-decoration: none;
+    align-items: center;
+}
+
+/* ---------------- input form end --------------- */
+
+.toTop{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #65110a;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	text-decoration: none;
+	border-radius: 50%;
+	font-size: 2em;
+	transition: .3s;
+}
+
+.toTop .fa{
+	transition: .3s;
+}
+
+.toTop:hover{
+	background-color: #e3c394;
+}
+
+.toTop:hover .fa{
+	transform: translateY(-5px);
+}
+
+/* ---------- 第三區 商務禮贈 動態 ---------- */
+.giftsel{
+    height: 100px;
+    background-color: #65110a;
+}
+
+.swiper {
+    width: 80%;
+    height: 100px;
+  }
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.giftsel img{
+    width: 100%;
+    padding-top: 25px;
+    
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    text-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+.swiper-button-next:after{
+    font-size: Standard fonts;
+}
+
+
+}
+
